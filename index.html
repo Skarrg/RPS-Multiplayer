@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RPS ONLINE</title>
+
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4"><strong>ROCK PAPER SCISSORS</strong></h1>
+            <p class="lead">Enter your name to start the game</p>
+        </div>
+        <form>
+                <div class="form-group nameinput">
+                        <form id="name-form">
+                                <input type="text" id="name-input" placeholder="Your Name">
+                                <input id="add-name" type="submit" value="Submit">
+                          </form>
+                </div>
+                </form>
+        <div class="row">
+            <div class="col-5 playerzone">
+                PLAYERZONE
+            </div>
+            <div class="col-2 middlezone">
+                MIDDLEZONE
+            </div>
+            <div class="col-5 enemyzone">
+                ENEMYZONE
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 textzone">
+                TEXTZONE
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
